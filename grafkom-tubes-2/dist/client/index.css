@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  overflow: hidden;
+  font-family: 'Roboto', serif;
+  color: #030303;
+}
+body {
+  display: block;
+  overflow: hidden;
+  margin: 0 auto;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.open-help-button {
+  position: absolute;
+  bottom: 5%;
+  right: 2%;
+  background-color: white;
+  border: 1px solid #424242;
+  color: #424242;
+  background-color: white;
+  width: 70px;
+  height: 70px;
+  font-size: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  outline-style: none;
+}
+
+.open-help-button:hover {
+  background-color: #424242;
+  transition: 0.3s;
+  color: white;
+}

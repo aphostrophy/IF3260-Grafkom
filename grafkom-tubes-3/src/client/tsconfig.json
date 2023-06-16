@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
+        "baseUrl": ".",
+        "paths": {
+            "@cameras/*": ["cameras/*"],
+            "@core/*": ["core/*"],
+            "@geometries/*": ["geometries/*"],
+            "@assets/*": ["assets/*"],
+            "@math/*": ["math/*"],
+            "@math": ["math"],
+            "@typings/*": ["typings/*"],
+            "@shaders/*": ["shaders/*"]
+        }
+    }
+}

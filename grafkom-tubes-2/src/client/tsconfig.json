@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "moduleResolution": "node",
+    "resolveJsonModule" : true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "@cameras/*": ["cameras/*"],
+      "@core/*": ["core/*"],
+      "@math/*": ["math/*"],
+      "@libs/*": ["libs/*"],
+      "@typings/*": ["typings/*"],
+      "@geometries/*": ["geometries/*"]
+    }
+  },
+  "include": ["**/*.ts", "geometries/HollowBoxGeometery.js"]
+}
